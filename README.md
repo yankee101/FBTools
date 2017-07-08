@@ -1,16 +1,16 @@
-﻿#FBTools
+﻿# FBTools
 
 >FBTools allows you to access Facebook via command-line.
 
 This project was made for learning purpose and is not maintained currently. It should work fine nonetheless. In case of any bug, please file an issue and I'll rectify it.
 
-##Highlight
+## Highlight
 It does not use Facebook Graph API.
 So a lot of features like fetching full friend list are now available.
 And its blazing fast because it uses the mobile version.
 
 
-##Current Features
+## Current Features
 
 * Check if someone unfriended you.
 * Like all posts on a friend's timeline.
@@ -19,11 +19,11 @@ And its blazing fast because it uses the mobile version.
 * Comment on any item in the feed.
 * Check your notifications.
 
-###Upcoming Features
+### Upcoming Features
 
 [None]
 
-##Requirements
+## Requirements
 
 * Python3
 * [PhantomJS 2.0.0](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-windows.zip)
@@ -36,20 +36,20 @@ And its blazing fast because it uses the mobile version.
   * pyfiglet (`pip install pyfiglet`)
   * requests (`pip install requests`)
 
-##Issue
+## Issue
 
 Posts not in English are skipped in the news feed due to decoding issues when writing the feed in command prompt (windows). Output on Python3 IDLE works fine though.
 
-##Screenshots
+## Screenshots
 
-###Mainscreen
+### Mainscreen
 ![FBTools](http://i.imgur.com/GsvnBk2.png)
 
-###Autoliker
+### Autoliker
 ![FBTools](http://i.imgur.com/jvZDN8u.png)
 
 Tested with Python 3.4.3 on Windows.
 
-##License
+## License
 
 MIT © [Ashish Chaudhary](http://tocttou.mit-license.org/)
